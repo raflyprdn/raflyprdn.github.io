@@ -1,186 +1,243 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/style.css" />
 
-    <link rel="stylesheet" href="css/style.css">
-
-    <title>My Portfolio</title>
+    <title>My Portfolio | Rafly Putra</title>
   </head>
-  <body class="mt-5">
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark shadow-sm">
       <div class="container">
-        <a class="navbar-brand" href="#">Rafly Pradana</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <a class="navbar-brand" href="#">Rafly Putra</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-          <div class="navbar-nav">
-            <a class="nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
-            <a class="nav-link" href="#">About</a>
-            <a class="nav-link" href="#">Portfolio</a>
-            <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">Contact</a>
-          </div>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact Me</a>
+            </li>
+          </ul>
         </div>
       </div>
     </nav>
+    <!-- End of Navbar -->
 
-    <div class="jumbotron jumbotron-fluid">
-      <div class="container text-center">
-        <img src="img/profile1.png" alt="" width="25%" class="rounded-circle img-thumbnail">
-        <h1 class="display-4">Rafly Pradana Putra</h1>
-        <p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
+    <!-- Jumbotron -->
+    <section class="jumbotron text-center">
+      <img
+        src="img/rafly.jpg"
+        alt="Rafly Putra"
+        width="200"
+        class="rounded-circle img-thumbnail"
+      />
+      <h1 class="display-4">Rafly Pradana Putra</h1>
+      <p class="lead">Freelance Web Developer</p>
+    </section>
+    <!-- End of Jumbotron -->
+
+    <!-- About -->
+    <div class="panel" id="panel">
+      <div class="container">
+        <div class="info-panel">
+          <div class="row text-center mb-3">
+            <div class="col-sm">
+              <h2>Who am I ?</h2>
+              <hr />
+            </div>
+          </div>
+          <div class="row justify-content-center">
+            <div class="col-sm-8">
+              <p class="fs-5">
+                I am a Web Developer enthusiast. I love playing games, solving
+                problems, and travelling. I'm curious and hardworker type of
+                person. Currently learning to develop a beautiful and cool web
+                desing and I will do my best to finish what I started.
+              </p>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
+    <!-- End of About -->
 
-    <section class="about" id="about">
+    <!-- Education -->
+    <section class="education" id="education">
       <div class="container">
-        <div class="row mb-4">
-          <div class="col-sm text-center">
-            <h2>About</h2>
+        <div class="row text-center my-5">
+          <div class="col-sm">
+            <h2>My Education</h2>
+            <hr />
           </div>
         </div>
-  
+        <div class="row justify-content-center fs-5">
+          <div class="col-sm-5">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+            Dignissimos, doloremque nostrum! Accusantium similique voluptatem
+            eos, voluptates vero fuga, quibusdam quam pariatur, expedita fugit
+            consequatur culpa sint aliquid recusandae minus esse!
+          </div>
+          <div class="col-sm-5">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+            Repudiandae quidem placeat dolor quisquam vitae, voluptatem dolores
+            numquam sed iure nostrum ullam aut, rem ratione mollitia obcaecati
+            nemo. Alias, itaque veniam!
+          </div>
+        </div>
+      </div>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path
+          fill="#eee"
+          fill-opacity="1"
+          d="M0,224L40,197.3C80,171,160,117,240,128C320,139,400,213,480,245.3C560,277,640,267,720,250.7C800,235,880,213,960,170.7C1040,128,1120,64,1200,64C1280,64,1360,128,1400,160L1440,192L1440,320L1400,320C1360,320,1280,320,1200,320C1120,320,1040,320,960,320C880,320,800,320,720,320C640,320,560,320,480,320C400,320,320,320,240,320C160,320,80,320,40,320L0,320Z"
+        ></path>
+      </svg>
+    </section>
+    <!-- End of Education -->
+
+    <!-- Projects -->
+    <section class="project" id="project">
+      <div class="container" id="container">
+        <div class="row text-center mb-5">
+          <div class="col-sm">
+            <h2>My Projects</h2>
+            <hr />
+          </div>
+        </div>
         <div class="row justify-content-center">
-          <div class="col-sm-5">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum nam excepturi laudantium error repellendus aliquid molestiae nulla possimus quidem voluptates blanditiis id maxime in ullam facere deleniti, dolore ratione! Sit. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium officiis molestiae explicabo sequi dolore cum. Dicta praesentium dolores sunt reprehenderit est laboriosam ex, deleniti aspernatur aut eveniet, officiis voluptate dolorem!</p>
-          </div>
-          <div class="col-sm-5">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum nam excepturi laudantium error repellendus aliquid molestiae nulla possimus quidem voluptates blanditiis id maxime in ullam facere deleniti, dolore ratione! Sit. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium officiis molestiae explicabo sequi dolore cum. Dicta praesentium dolores sunt reprehenderit est laboriosam ex, deleniti aspernatur aut eveniet, officiis voluptate dolorem!</p>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section class="portfolio bg-light pb-4" id="portfolio">
-      <div class="container">
-        <div class="row mb-4 pt-4">
-          <div class="col-sm text-center">
-            <h2>Portfolio</h2>
-          </div>
-        </div>
-  
-        <div class="row mb-4">
-          <div class="col-sm">
+          <div class="col-sm-4 mb-3">
             <div class="card">
-              <img src="img/thumbs/1.png" class="card-img-top" alt="...">
+              <img src="img/thumbs/1.png" class="card-img-top" alt="project1" />
               <div class="card-body">
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
               </div>
             </div>
           </div>
-          <div class="col-sm">
+          <div class="col-sm-4 mb-3">
             <div class="card">
-              <img src="img/thumbs/2.png" class="card-img-top" alt="...">
+              <img src="img/thumbs/1.png" class="card-img-top" alt="project1" />
               <div class="card-body">
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
               </div>
             </div>
           </div>
-          <div class="col-sm">
+          <div class="col-sm-4 mb-3">
             <div class="card">
-              <img src="img/thumbs/3.png" class="card-img-top" alt="...">
+              <img src="img/thumbs/1.png" class="card-img-top" alt="project1" />
               <div class="card-body">
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              </div>
-            </div>
-          </div>
-        </div>
-  
-        <div class="row mb-4">
-          <div class="col-sm">
-            <div class="card">
-              <img src="img/thumbs/4.png" class="card-img-top" alt="...">
-              <div class="card-body">
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-sm">
-            <div class="card">
-              <img src="img/thumbs/5.png" class="card-img-top" alt="...">
-              <div class="card-body">
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-sm">
-            <div class="card">
-              <img src="img/thumbs/6.png" class="card-img-top" alt="...">
-              <div class="card-body">
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
               </div>
             </div>
           </div>
         </div>
       </div>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path
+          fill="#fff"
+          fill-opacity="1"
+          d="M0,192L60,213.3C120,235,240,277,360,277.3C480,277,600,235,720,197.3C840,160,960,128,1080,144C1200,160,1320,224,1380,256L1440,288L1440,320L1380,320C1320,320,1200,320,1080,320C960,320,840,320,720,320C600,320,480,320,360,320C240,320,120,320,60,320L0,320Z"
+        ></path>
+      </svg>
     </section>
+    <!-- End of Projects -->
 
-    <section class="contact mb-5" id="contact">
+    <!-- Contact -->
+    <section class="contact" id="contact">
       <div class="container">
-        <div class="row pt-4 mb-4">
-          <div class="col-sm text-center">
+        <div class="row mb-5">
+          <div class="col-sm-12 text-center">
             <h2>Contact Me</h2>
+            <hr />
           </div>
         </div>
-
         <div class="row justify-content-center">
-          <div class="col-md-4">
-            <div class="card text-white bg-primary mb-3 text-center">
-              <div class="card-body">
-                <h5 class="card-title">Contact Me</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <div class="col-sm-6">
+            <form>
+              <div class="mb-3">
+                <label for="name" class="form-label">Name</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="name"
+                  aria-describedby="name"
+                />
               </div>
-            </div>
-            <ul class="list-group">
-              <li class="list-group-item"><h1>Location</h1></li>
-              <li class="list-group-item">My Office</li>
-              <li class="list-group-item">Morbi leo risus</li>
-              <li class="list-group-item">Yogyakarta</li>
-            </ul>
-          </div>
-          <div class="col-md-6">
-            <form method="post">
-              <div class="form-group">
-                <label for="name">Name</label>
-                <input type="text" class="form-control" id="name">
+              <div class="mb-3">
+                <label for="email" class="form-label">Email Address</label>
+                <input
+                  type="email"
+                  class="form-control"
+                  id="email"
+                  aria-describedby="email"
+                />
               </div>
-              <div class="form-group">
-                <label for="email">Email</label>
-                <input type="email" class="form-control" id="email">
+              <div class="mb-3">
+                <label for="message" class="form-label">Message</label>
+                <textarea class="form-control" id="message" rows="3"></textarea>
               </div>
-              <div class="form-group">
-                <label for="email">Message</label>
-                <textarea name="message" class="form-control" id="message"></textarea>
-              </div>
-              <div class="form-group">
-                <button type="submit" class="btn btn-primary">Send</button>
-              </div>
+              <button type="submit" class="btn btn-primary">Submit</button>
             </form>
           </div>
         </div>
       </div>
     </section>
+    <!-- End of Contact -->
 
-    <footer class="bg-dark text-white">
+    <!-- Footer -->
+    <footer class="text-white bg-dark text-center p-3">
       <div class="container">
-        <div class="row pt-3">
-          <div class="col text-center">
-            <p>Copyright 2020.</p>
+        <div class="row">
+          <div class="col-sm">
+            <p>&copy; 2020 | Built by <a href="">Sanichi Flyra</a>.</p>
           </div>
         </div>
       </div>
     </footer>
+    <!-- End of Footer -->
 
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
