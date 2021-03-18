@@ -1,3 +1,43 @@
 section {
-  min-height: 420px;
+  min-height: 500px;
+}
+
+.jumbotron {
+  padding-top: 2rem;
+  background-image: url("../img/header-bg.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: 0 -250px;
+  color: #eaeaea;
+}
+
+.jumbotron h1,
+.jumbotron p {
+  text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.8);
+}
+
+.jumbotron img {
+  border: 5px solid #eaeaea;
+  box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.8);
+}
+
+.info-panel {
+  margin: -100px 30px auto;
+  padding: 20px;
+  box-shadow: 0 3px 20px rgba(0, 0, 0, 0.2);
+  background-color: #fff;
+  /* color: #fff; */
+  border-radius: 15px;
+  position: relative;
+}
+
+.project {
+  padding-top: 2rem;
+  background-color: #eee;
+}
+
+hr {
+  width: 250px;
+  border-top: 2px solid #999;
+  margin: auto;
 }
